@@ -1,0 +1,460 @@
+body
+{
+	background: url(bgimg.jpg);
+	color:white;
+	width: 100%;
+	height:100%;
+	margin:auto;
+	
+}
+
+.card{
+	margin: auto;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.btn-default
+{
+	border: 0.5px solid #15f4ee;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 1.5s;
+}
+.btn-default:hover
+{
+	box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px #15f4ee,
+				0 5px 50px 0 #15f4ee inset, 0 5px 50px #15f4ee;
+    text-shadow: 0 0 5px #15f4ee,0 0 5px #15f4ee;
+}
+hr
+{
+	border-top: 0.5px solid #f8f8f8;
+	border-bottom: 0.5px solid rgba(0,0,0,0.2);
+	margin-left: 160px;
+	margin-right:  160px;
+	text-shadow: 0 0 20px #ff005b;
+}
+
+
+
+#spons{
+	text-align: center;
+	padding-top: 15%;
+	font-size: 56px;
+	color: white;
+	text-shadow: 0 0 30px #15f4ee;
+
+
+}
+
+.sponsor
+{
+	color: white;
+}
+
+.card-text{
+	color:black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	
+
+}
+.card-img-top{
+
+}
+.padding
+{
+	color: white;
+}
+
+.navbar-light{
+	color:white;
+	
+}
+
+.content
+{
+	color: white;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	padding-top:20%;
+}
+
+.title-spon
+{
+	padding-top: 30px;
+	align-items: center;
+	text-align: center;
+	color: white;
+
+}
+
+.title-spon .card
+{
+	position: relative;
+	width:250px;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	border-radius: 4px;
+	text-align: center;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+.title-spon .card:hover
+{
+	transform: translateY(-10px);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.title-spon .card:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.03);
+	pointer-events: none;
+	z-index: 1;
+}
+#about
+{
+	margin-top:5%;
+	padding-top: 10%;
+}
+
+.metrices
+{
+	width:100%;
+	height:350px;
+	margin-top: 5%;
+	background:rgba(255,255,255,0);
+	color: black;
+
+
+}
+
+.matrices .container
+{
+    color: black;
+	background:rgba(255,255,255,0);
+	margin:0;
+	padding: 0;
+	position: relative;
+	width: 900px;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 45vh; margin-top: 0;margin-left: 17%;
+}
+
+.container .card
+{
+	position: relative;
+	width:250px;
+	background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	border-radius: 4px;
+	text-align: center;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.container .card:hover
+{
+	transform: translateY(-10px);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.container .card:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.03);
+	pointer-events: none;
+	z-index: 1;
+}
+.percent
+{
+	position: relative;
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow: inset 0 0 50px #000;
+	background: #222;
+	z-index: 1000;
+}
+
+.percent .number
+{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.percent .number h2
+{
+	color: #777;
+	font-weight: 700;
+	font-size: 40px;
+	transition: 0.5s;
+}
+.card:hover .percent .number h2
+{
+	color:#fff;
+	font-size: 52px;
+}
+.percent .number h2 span
+{
+	font-size: 24px;
+	color:#777;
+	transition: 0.5s;
+}
+
+.card:hover .percent .number h2 span
+{
+	color:#fff;
+}
+.text
+{
+	position: relative;
+	color: #777;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: 0.5s;
+	margin-top: 20px;
+}
+
+.card:hover .text
+{
+	color: #fff;
+}
+svg{
+	width: 150px;
+	height: 150px;
+	z-index: 1000;
+	
+
+}
+svg circle
+{
+	width:100%;
+	height: 100%;
+	fill:none;
+	stroke:#191919;
+	stroke-width:10;
+	stroke-linecap: round;
+	transform: translate(5px,5px);
+}
+svg circle:nth-child(2)
+{
+	stroke-dasharray: 110;
+	stroke-dashoffset: 110;
+
+}
+.card:nth-child(1) svg circle:nth-child(2)
+{
+	stroke: #00ff43;
+}
+#hackathon svg circle:nth-child(2)
+{
+	stroke: #00a1ff;
+}
+#participants svg circle:nth-child(2)
+{
+	stroke: #ff04f3;
+}
+
+#commits svg circle:nth-child(2) 
+{
+	stroke: #f5a623;
+}
+
+.wrap
+{
+  margin-top:10%;
+  perspective:2000px;
+  perspective-origin:50% 50%;
+}
+
+.cube
+{
+  transform-style: preserve-3d;
+  width:200px;
+  height:200px;
+  margin:auto;
+  margin-top:25%; 
+  position:relative;
+ }
+
+.cube img{
+  position:absolute;
+  opacity:0.7;
+}
+
+.cube img:nth-child(1)
+{
+    transform: rotateY(0deg) translateZ(100px);
+}
+.cube img:nth-child(2)
+{
+    transform: rotateY(90deg) translateZ(100px);
+}
+.cube img:nth-child(3)
+{
+    transform: rotateY(180deg) translateZ(100px);
+}
+.cube img:nth-child(4)
+{
+    transform: rotateY(-90deg) translateZ(100px);
+}
+.cube img:nth-child(5)
+{
+    transform: rotateX(90deg) translateZ(100px);
+}
+.cube img:nth-child(6)
+{
+    transform: rotateX(-90deg) translateZ(100px);
+}
+
+@keyframes loop{
+  from{transform: rotateX(0deg) rotateY(0deg);}
+  to{transform: rotateX(360deg) rotateY(360deg);}
+}
+
+.cube{
+  animation:loop 20s linear infinite;
+}
+
+
+
+.neonbox
+	{
+		margin: 0;
+		padding-top: 5%;
+		font-family: 'Kulim Park', sans-serif;
+	}	
+    .neon
+    {
+    	position: absolute;
+    	top:50%;
+    	left:50%;
+    	transform: translate(-50%,-50%);
+    	margin: 0;
+    	padding: 0 10px;
+    	font-size:65px;
+    	color:#fff;
+    	text-shadow: 0 0 20px #ff005b;
+    }
+    .neon:after
+    {
+    	content: attr(data-text);
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	padding: 0 20px;
+    	z-index:-1;
+    	color: #ff005b;
+    	filter: blur(15px);
+
+    }
+    .neon:before
+    {
+    	content: '';
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    	background: #ff005b;
+    	z-index:-2;
+    	opacity: 0.5;
+    	filter: blur(40px);
+    }
+
+
+#contact{
+	margin: auto;
+	padding: auto;
+	
+	align-items: center;
+}
+
+#query{
+	font-size: 2.3em;
+}
+
+@media only screen and (max-width: 600px) {
+  #query{   font-size: 1.5em;
+  }
+
+  .neonbox
+	{
+		margin: 0;
+		padding-top: 2%;
+		font-family: 'Kulim Park', sans-serif;
+		margin-bottom: 20%;
+	}	
+    .neon
+    {
+    	position: absolute;
+    	top:40%;
+    	left:46%;
+    	transform: translate(-50%,-50%);
+    	margin: 0;
+    	padding: 0 2px;
+    	font-size:22px;
+    	color:#fff;
+    	text-shadow: 0 0 5px #ff005b;
+    }
+    .neon:after
+    {
+    	content: attr(data-text);
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	padding: 0 1px;
+    	z-index:-1;
+    	color: #ff005b;
+    	filter: blur(8px);
+
+    }
+    .neon:before
+    {
+    	content: '';
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    	background: #ff005b;
+    	z-index:-2;
+    	opacity: 0.5;
+    	filter: blur(20px);
+    }
+
+}
